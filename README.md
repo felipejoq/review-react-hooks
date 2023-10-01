@@ -14,6 +14,7 @@ para la confección de aplicaciones usando esta librería.
     1. useCallback
     2. useMemo
     3. React.memo()
+- useReducer ⭐️ importante!
 
 ℹ️ Esos son algunos de los Hooks repasados hasta ahora en este proyecto. Cada uno está siendo aplicado
 en ejercicios prácticos que pueden ser revisados en las carpetas numeradas
