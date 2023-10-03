@@ -1,15 +1,17 @@
 import {useEffect, useReducer} from "react";
 import {todoReducer} from "../todoReducer.js";
 
-const initialState = [];
+const initialState = [{}];
 
 const init = () => {
-    return JSON.parse(localStorage.getItem('todos') || []);
+    return JSON.parse(localStorage.getItem('todos')) || [];
 }
 
 export const useTodos = () => {
 
-    const [todos, dispatch] = useReducer(todoReducer, [], init);
+    const [todos, dispatch] = useReducer(todoReducer, initialState, init);
+
+    console.log(todos)
 
     useEffect(() => {
         localStorage.setItem('todos', JSON.stringify(todos));
