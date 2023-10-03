@@ -11,8 +11,6 @@ export const useTodos = () => {
 
     const [todos, dispatch] = useReducer(todoReducer, initialState, init);
 
-    console.log(todos)
-
     useEffect(() => {
         localStorage.setItem('todos', JSON.stringify(todos));
     }, [todos]);
