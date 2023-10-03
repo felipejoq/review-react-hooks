@@ -15,6 +15,11 @@ para la confección de aplicaciones usando esta librería.
     2. useMemo
     3. React.memo()
 - useReducer ⭐️ importante!
+- useContext ⭐️ importante!
+  - Integración con React Router
+  - Creación de un Provider
+  - Creación de un Context
+  - Uso del hook: useContext
 
 ℹ️ Esos son algunos de los Hooks repasados hasta ahora en este proyecto. Cada uno está siendo aplicado
 en ejercicios prácticos que pueden ser revisados en las carpetas numeradas
